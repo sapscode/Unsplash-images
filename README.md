@@ -27,29 +27,31 @@ A simple React project to practice using **React Query** for API data fetching, 
 
 ## 🛠️ Getting Started
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sapscode/Unsplash-images.git
 cd Unsplash-images
 ```
 
-# 2. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-# 3. Set Up Unsplash API Access
-  # Go to Unsplash Developers and create a new application.
-  # Copy your Access Key.
-  # Create a .env file in the root directory of your project and add the following line:
+### 3. Set Up Unsplash API Access
+- Go to [Unsplash Developers](https://unsplash.com/developers) and create a new application.
+- Copy your **Access Key**.
+- Create a `.env` file in the root directory of your project and add the following line:
 
+```env
 VITE_UNSPLASH_KEY=your_access_key_here
+```
 
-# 4. Start the Development Server
+### 4. Start the Development Server
 
 ```bash
 npm run dev
 ```
-# Your app will now be running at: http://localhost:5173
+Your app will now be running at: http://localhost:5173
