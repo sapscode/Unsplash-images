@@ -9,7 +9,7 @@ const SearchForm = () => {
 	};
 	return (
 		<>
-			<h1 className="title">Unslpash Images</h1>;
+			<h1 className="title">Unslpash Images</h1>
 			<form className="search-form" action="" onSubmit={handleSubmit}>
 				<input
 					className="form-input search-input"
@@ -21,7 +21,6 @@ const SearchForm = () => {
 					Search
 				</button>
 			</form>
-			;
 		</>
 	);
 };
